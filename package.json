@@ -1,0 +1,18 @@
+{
+  "name": "crypto-ipfs-node",
+  "version": "0.1.0-alpha.2",
+  "main": "index.js",
+  "author": "Glenn Vandeuren <vandeurenglenn@gmail.com>",
+  "description": "The official Crypto-io IPFS node",
+  "repository": "https://github.com/crypto-io/crypto-ipfs-node",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "crypto-logger": "^0.1.0-alpha.7",
+    "ipfs-api": "^17.2.6",
+    "request-promise": "^4.2.2"
+  }
+}
